@@ -1,3 +1,7 @@
+//  I will create a new js folder to change the scopes only.
+
+// This is for week 7 lesson 2.
+
 function coinFlip() {
   return new Promise((resolve, reject) => {
     const flipResult = Math.random() < 0.5 ? "heads" : "tails";
